@@ -5,10 +5,10 @@ import HeroImage from '../assets/HeroImage.png'
 const Hero = () => {
     return (
         <section className='container mx-auto p-5'>
-            <div className='bg-[#E7E6E6] w-[100%] h-[80vh] rounded-3xl'>
-                <div className='flex justify-between items-center px-10 flex-wrap'>
-                    <div className='flex flex-col gap-3'>
-                        <h1 className='heroText text-[55px] font-bold'>
+            <div className='bg-[#E7E6E6] w-[100%] p-10 rounded-3xl'>
+                <div className='flex justify-center xl:justify-between flex-wrap items-center gap-5'>
+                    <div className='flex flex-col gap-5'>
+                        <h1 className='sm:text-[75px] text-[55px] sm:leading-[75px] leading-[70px] font-bold'>
                             LET’S <br />
                             EXPLORE <br />
                             UNIQUE <br />

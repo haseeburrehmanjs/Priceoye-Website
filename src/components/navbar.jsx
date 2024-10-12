@@ -6,22 +6,21 @@ const Navbar = () => {
   return (
     <section className='h-24px h-[60px] flex items-center mt-3'>
       <div className='container mx-auto'>
-        <div className='flex justify-between items-center p-5'>
+        <div className="navbar bg-base-100 flex items-center">
+          <div className="flex-1">
+            <a className="btn btn-ghost text-xl"><img width={100} src={Logo} alt="" /></a>
+          </div>
+          <div className="flex gap-4">
+            <ul className="hidden md:flex flex flex-wrap justify-center items-center">
+              <li className='btn btn-ghost'>CATALOGUE</li>
+              <li className='btn btn-ghost'>FASHION</li>
+              <li className='btn btn-ghost'>FAVOURITE</li>
+              <li className='btn btn-ghost'>LIFESTYLE</li>
+            </ul>
             <div>
-               <img width={100} src={Logo} alt="" />
+              <Button btnText={'SIGN UP'} />
             </div>
-            <div className='flex gap-5 items-center'>
-              <ul className='flex gap-8 items-center'>
-                <li>CATALOGUE</li>
-                <li>FASHION</li>
-                <li>FAVOURITE</li>
-                <li>LIFESTYLE</li>
-              </ul>
-              <div className='xl:hidden '>
-                <img width={30} src="https://upload.wikimedia.org/wikipedia/commons/thumb/b/b2/Hamburger_icon.svg/800px-Hamburger_icon.svg.png" alt="" />
-              </div>
-              <Button btnText={'SING UP'} /> 
-            </div>
+          </div>
         </div>
       </div>
     </section>
