@@ -1,4 +1,5 @@
 import React from 'react'
+import ArrivalCard from '../components/ArrivalCard'
 
 const Arrival = () => {
   return (
@@ -7,7 +8,7 @@ const Arrival = () => {
         <h1 className='text-4xl font-bold '>New Arrivals</h1>
         <div className='flex justify-between flex-wrap'>
             <div>
-
+                <ArrivalCard />
             </div>
         </div>
     </section>
