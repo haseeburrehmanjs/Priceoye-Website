@@ -5,6 +5,8 @@ import Arrival from './pages/arrival'
 import ShopNow from './pages/ShopNow'
 import YoungFav from './pages/YoungFav'
 import DownloadApp from './pages/DownloadApp'
+import JoinShopping from './pages/JoinShopping'
+import Footer from './pages/Footer'
 
 const Layout = () => (
   <div>
@@ -14,6 +16,8 @@ const Layout = () => (
     <ShopNow />
     <YoungFav />
     <DownloadApp />
+    <JoinShopping />
+    <Footer />
   </div>
 )
 

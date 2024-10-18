@@ -5,7 +5,7 @@ import Mobile from "../assets/mobile.png"
 
 const DownloadApp = () => {
   return (
-    <section className='container mx-auto p-4'>
+    <section className='container mx-auto p-4 mt-[70px]'>
       <div className="flex items-center justify-center sm:justify-between flex-wrap gap-10">
         <div className='flex flex-col gap-10 text-center sm:text-start'>
             <h1 className='text-[45px] text-black font-bold leading-[45px]'>DOWNLOAD APP & <br />
