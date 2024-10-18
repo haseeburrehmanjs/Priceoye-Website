@@ -3,6 +3,8 @@ import Navbar from './components/Navbar'
 import Hero from './components/Hero'
 import Arrival from './pages/arrival'
 import ShopNow from './pages/ShopNow'
+import YoungFav from './pages/YoungFav'
+import DownloadApp from './pages/DownloadApp'
 
 const Layout = () => (
   <div>
@@ -10,6 +12,8 @@ const Layout = () => (
     <Hero />
     <Arrival />
     <ShopNow />
+    <YoungFav />
+    <DownloadApp />
   </div>
 )
 
